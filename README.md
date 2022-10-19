@@ -7,6 +7,8 @@ As one representation of the scene depth information in light field(LF), the dis
 
 
 # Some Details:
-1. Three Encoder Networks: EPI Volume(Query), EPI Patch(Query), Cost Volume(Query)
-2. One Decoder Network: Query-based Decoder.
-3. Refinement: PixelNet is used as a post-refinement network for better performance on BadPix. Thanks for <PixelNet: Pixel-based Matching Cost Function for Light Field Disparity Estimation>
+1. Three encoder networks: EPI Volume(Query), EPI Patch(Query), Cost Volume(Query)
+2. Three sampling strategies: Uniform Sampling, Gaussion Sampling, Iterative Sampling
+3. One decoder network: Query-based Decoder.
+4. Three generation algorithms: Space Query, Point Query, Region Query.
+5. Refinement: PixelNet is used as a post-refinement network for better performance on BadPix. Thanks for <PixelNet: Pixel-based Matching Cost Function for Light Field Disparity Estimation>
