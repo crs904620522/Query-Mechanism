@@ -11,4 +11,4 @@ As one representation of the scene depth information in light field(LF), the dis
 2. Three sampling strategies: Uniform Sampling, Gaussion Sampling, Iterative Sampling
 3. One decoder network: a conditional-residual-block-based Decoder.
 4. Three generation algorithms: Space Query, Point Query, Region Query.
-5. Refinement: BpCNet <<Take your model further: a general post-refinement network for Light Field disparity estimation via BadPix correction>>
+5. Refinement: BpCNet [Take your model further: a general post-refinement network for Light Field disparity estimation via BadPix correction]
